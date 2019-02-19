@@ -1,0 +1,14 @@
+#append {
+	
+}
+#append td,th {
+	text-align:left;
+}
+
+#body {
+	text-align:center;
+}
+
+table {
+	margin:0 auto;
+}

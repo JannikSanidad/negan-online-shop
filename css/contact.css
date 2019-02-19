@@ -1,0 +1,72 @@
+#contact h1 {
+	text-align:center;
+	margin:50px 20px;
+}
+
+
+#info {
+	width:25%;
+	float:left;
+	margin:0 0 50px 0;
+}
+
+#info h2 {
+	margin:10px 0;
+}
+
+#info h3 {
+	margin:10px 0;
+}
+
+#form {
+	width:23%;
+	float:left;
+	margin:0 10px;
+}
+
+#form input[type="text"],#form input[type="email"] {
+	margin:10px 0;
+	height:30px;
+	width:90%;
+	background-color:#282323;
+	border:none;
+	color:#7be18e;
+	padding:0 8px;
+}
+
+#form textarea {
+	margin:10px 0;
+	height:140px;
+	width:90%;
+	border:none;
+	background-color:#282323;
+	color:#7be18e;
+	padding:0 8px;
+}
+
+#form input[type="text"]::placeholder,#form input[type="email"]::placeholder,#form textarea::placeholder {
+	color:#7be18e;
+}
+
+#form input[type="submit"] {
+	width:90%;
+	height:30px;
+	border:none;
+	background-color:#008329;
+	color:white;
+	box-shadow:1px 1px 3px black;
+}
+
+#map {
+	float:left;
+	width:46%;
+	text-align:center;
+}
+
+#map img {
+	box-shadow:2px 2px 5px gray;
+}
+
+footer {
+	clear:both;
+}

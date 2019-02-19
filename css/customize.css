@@ -1,0 +1,90 @@
+.red {
+	color:red;
+}
+/* PRODUCTION */
+#production {
+	margin:50px 0;
+	height:350px;
+}
+.process {
+	margin:10px;
+	float:left;
+	width:30%;
+	height:150px;
+	background-color:#008329;
+	text-align:center;
+	color:white;
+	font-family:Verdan;
+	font-size:23px;
+	padding:30px;
+	border-radius:4px;
+	box-shadow:2px 2px 5px black;
+}
+
+.process:hover {
+	background-color:#030321;
+}
+
+.number {
+	color:#eee;
+}
+
+/* FORM */
+#form {
+	height:620px;
+}
+
+#input-container {
+	float:left;
+	width:60%;
+	background-color:#fff;
+	border-right: 3px solid #030321;
+	padding:20px 50px;
+	box-shadow:-2px 2px 5px gray;
+}
+
+#form input {
+	margin:10px auto;
+	width:90%;
+	height:30px;
+}
+
+#form textarea {
+	width:90%;
+	height:100px;
+	margin:10px auto;
+}
+
+#button-container {
+	margin:25px;
+	float:left;
+	height:100px;
+	width:30%;
+	background-color:#fff;
+	padding:20px 15px;
+	box-shadow:-2px 2px 5px gray;
+	border-right:3px solid #030321;
+}
+
+#clear {
+	cursor:pointer;
+	float:left;
+	padding:10px 30px;
+	color: #008329;
+	background:transparent;
+	border:2px solid #008329;
+	margin:13px;
+}
+
+#submit {
+	cursor:pointer;
+	margin:13px;
+	background-color:#008329;
+	border:none;
+	color:white;
+	padding:10px 30px;
+}
+
+footer {
+	clear:both;
+}

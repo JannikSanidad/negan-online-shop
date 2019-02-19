@@ -1,0 +1,39 @@
+#append {
+	margin:25px auto;
+	border-color:green;
+}
+#append td,th {
+	text-align:left;
+	padding:10px;
+}
+
+h1 {
+	margin:30px;
+	color:white;
+	text-shadow:2px 2px 5px black;
+	font-family:Sans-serif;
+	font-size:36px;
+}
+
+#body {
+	text-align:center;
+}
+
+#append th {
+	background-color:#008329;
+	color:white;
+	padding:10px 20px;
+}
+
+input[type="button"] {
+	margin:0px 10px 20px 10px;
+	padding:10px 20px;
+	background:transparent;
+	border:3px solid #008329;
+	border-radius:9px;
+}
+
+input[type="button"]:hover {
+	background-color:#008329;
+	color:white;
+}

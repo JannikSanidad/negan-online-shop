@@ -1,0 +1,347 @@
+/* Global */
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+a {
+	color:black;
+	text-decoration:none;
+}
+
+body {
+	background-color:#f4f4f4;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.container {
+	width:80%;
+	margin:0 auto;
+}
+
+.green {
+	color:#008329;
+}
+
+.button_1 {
+	border:2px solid white;
+	border-radius:5px;
+	padding:5px 10px;
+}
+
+.button_1:hover {
+	border:2px solid #008329;
+	color:#008329;
+}
+
+.button_2 {
+	background-color:#008329;
+	border-radius:5px;
+	padding:5px 20px;
+	border:2px solid #008329;
+}
+
+.button_2:hover {
+	background-color:#00ad35;
+	border:2px solid #00ad35;
+}
+
+.modal {
+	display:none;
+	position:fixed;
+	z-index:1;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	overflow:auto;
+	background-color:rgba(0,0,0,0.6);
+}
+
+/* Header */
+header {
+	width:100%;
+	height:60px;
+	background-color:white;
+	box-shadow:3px 0 3px gray;
+}
+
+div#branding {
+	height:60px;
+	padding-top:13px;
+	float:left;
+}
+
+div#branding h1 {
+	float:right;
+	font-family:Tahoma;
+	letter-spacing:1px;
+	margin:-5px 10px;
+}
+
+nav#menu {
+	float:right;
+	line-height:60px;
+}
+
+nav#menu ul {
+	height:60px;
+}
+
+nav#menu ul li{
+	height:60px;
+	display:inline-flex;
+	margin:0px 20px;
+	list-style:none;
+}
+
+.current a {
+	color:#008329;
+}
+
+
+nav#menu ul li a {
+	height:60px;
+	font-size:16px;
+	letter-spacing:3px;
+	font-family:Garamond;
+}
+
+nav#menu ul li:hover {
+	border-bottom:3px solid #008329;
+}
+
+/* Sub-header */
+
+div#sub-header {
+	width:100%;
+	height:40px;
+	background-color:#030321;
+	color:white;
+}
+
+div#search {
+	float:left;
+	height:40px;
+	padding:5px;
+}
+
+div#search input[type="text"] {
+	width:250px;
+	height:30px;
+}
+
+#search-icon {
+	float: right;
+    right:25px;
+    margin-top: 5px;
+    position: relative;
+    z-index: 1;
+    color:lightgray;
+}
+
+nav#account {
+	padding:11px;
+	float:right;
+	height:40px;
+}
+
+nav#account ul {
+	height:40px;
+}
+
+nav#account ul li {
+	display:inline;
+	margin:5px 10px 5px 0;
+	text-transform: uppercase;
+	font-size:14px;
+	font-family:Arial;
+	cursor:pointer;
+}
+
+nav#logged-in {
+	display:none;
+	padding:11px;
+	float:right;
+	height:40px;
+	margin-top: -5px;
+	color:white;
+}
+
+nav#logged-in ul {
+	height:40px;
+}
+
+nav#logged-in ul li {
+	display:inline;
+	margin:5px 10px 5px 0;
+	font-size:14px;
+	font-family:Arial;
+	cursor:pointer;
+}
+
+nav#logged-in ul li input[type="submit"] {
+	color:white;
+	background-color:transparent;
+}
+
+
+
+/* Showcase */
+
+#showcase {
+	background: linear-gradient(to right, #d5d5d5 0%, white 10%, white 90%, #d5d5d5 100%);
+	width:1000px;
+	height:500px;
+	margin:auto;
+}
+
+#insert {
+	border-radius:9px;
+}
+
+#buttons {
+	position:absolute;
+	padding-top:470px;
+	left:49%
+}
+
+.dot {
+ 	cursor:pointer;
+	height: 20px;
+ 	width: 20px;
+ 	margin: 0 2px;
+ 	background-color: #bbb;
+ 	border-radius: 50%;
+ 	display: inline-block;
+ 	transition: background-color 0.6s ease;
+ 	border:1px solid white;
+ 	box-shadow:2px 2px 2px black;
+}
+
+.active,.dot:hover {
+	background-color:#008329;
+}
+
+/* Newsletter */
+
+#newsletter {
+	width:100%;
+	height:100px;
+	background-color:#030321;
+	color:white;
+	padding-top:30px;
+}
+
+#newsletter h1 {
+	float:left;
+}
+
+#newsletter form {
+	float:right;
+	display:inline-flex;
+}
+
+#newsletter input[type="email"] {
+	width:200px;
+	height:35px;
+	margin:0 10px;
+}
+
+#newsletter input[type="submit"] {
+	width:100px;
+	height:35px;
+	background-color:#008329;
+	border:none;
+	color:white;
+	cursor:pointer;
+}
+
+/* Footer */
+
+footer {
+	width:100%;
+	height:180px;
+	background-color:#030321;
+	color:white;
+}
+
+footer div {
+	padding-top:20px;
+	text-align:center;
+}
+
+div#links {
+	float:left;
+	width:33%;
+}
+
+div#links ul li {
+	text-align:left;
+	list-style:none;
+	font-size:14px;
+}
+
+div#links ul #title {
+	font-size:20px;
+}
+
+div#social-media {
+	float:left;
+	width:33%;
+	font-size:36px;
+}
+
+div#footer-content {
+	float:left;
+	text-align:right;
+	width:33%;
+	padding:20px;
+}
+
+div#footer-content p {
+	font-size:14px;
+}
+
+/* ACCOUNT MODAL */
+
+.signup-modal-content,.login-modal-content {
+	width:25%;
+	height:250px;
+	margin:200px auto;
+	background-color:#282323;
+	color:white;
+	text-align:center;
+	padding:10px 0;
+	border-radius:5px;
+}
+
+.signup-modal-content h1,.login-modal-content h1 {
+	margin:20px;
+}
+
+.signup-modal-content input, .login-modal-content input {
+	width:60%;
+	height:30px;
+	margin:5px auto;
+
+}
+
+.signup-modal-content input[type=submit],.login-modal-content input[type=submit]{
+	border:none;
+	background-color:#008329;
+	color:white;
+}
+
+.signup-modal-content p, .login-modal-content p {
+	font-size:12px;
+	color:white;
+}
+
+.signup-modal-content a, .login-modal-content a {
+	text-decoration:underline;
+	font-size:12px;
+	color:#008329;
+}

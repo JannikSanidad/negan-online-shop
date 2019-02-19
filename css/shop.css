@@ -1,0 +1,127 @@
+#sidebar {
+	width:20%;
+	float:left;
+}
+
+#sidebar h1 {
+	margin:20px 0;
+}
+
+#sidebar li {
+	list-style:none;
+	margin:8px 0;
+	font-size:15px;
+}
+
+#sidebar li a:hover {
+	color:#008329;
+}
+
+#sidebar li::before {
+	content: "\00BB";
+	margin:0 5px;
+}
+
+#main {
+	float:left;
+	width:80%;
+	margin-bottom:50px;
+}
+
+#title {
+	margin:20px 0;
+}
+
+#path {
+	font-family:calibri;
+	font-size:13px;
+	font-weight:bold;
+}
+
+#path a {
+	color:#008329;
+}
+
+.product {
+	margin:8px;
+	float:left;
+	width:31%;
+	border:1px solid lightgray;
+}
+
+.product:hover {
+	border:1px solid #008329;
+	color:#008329;
+	cursor:pointer;
+}
+
+.desc {
+	margin-top:-15px;
+	height:35px;
+	width:100%;
+	/*background-color:green;*/
+	/*height:50px;*/
+}
+
+h1.product-id {
+	padding:0px 20px;
+	width:46%;
+	float:left;
+	font-size: 20px;
+	letter-spacing:1px;
+	font-family:Tahoma;
+}
+
+h2.product-price {
+	padding:2px 5px;
+	width:46%;
+	text-align:right;
+	float:left;
+	font-size:16px;
+	font-family:Garamond;
+}
+
+.product img {
+	width:100%;
+	margin:0;
+}
+
+.modal-content {
+	width:60%;
+	background-color:#f4f4f4;
+	margin:20px auto;
+	text-align:center;
+}
+
+.modal-content img {
+	width:250px;
+}
+
+.modal-content p {
+	font-size:24px;
+	margin:10px;
+}
+
+#table-info table {
+	margin:0 auto;
+	text-align:left;
+}
+
+#table-info table td {
+	border:1px solid lightgray;
+	padding:10px 30px;
+}
+
+#button-container button {
+	width:20%;
+	border: none;
+	padding:15px 40px;
+	color:white;
+	background-color:#008329;
+	margin:10px 20px;
+	cursor:pointer;
+}
+
+footer {
+	clear:both;
+}
